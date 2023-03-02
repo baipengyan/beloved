@@ -1,14 +1,20 @@
 package com.codebeloved;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
 /**
- * TODO
+ * 启动类
  *
- * @author ${USER}
+ * @author baipengyan
  * @version 1.0
  * @since JDK 1.8
  */
-public class Main {
+@EnableDiscoveryClient
+@SpringBootApplication
+public class BelovedDddStartApplication {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		SpringApplication.run(BelovedDddStartApplication.class, args);
 	}
 }

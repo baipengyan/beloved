@@ -1,0 +1,26 @@
+server:
+  port: 10086
+  http2:
+    enabled: true
+
+spring:
+  application:
+    name: beloved-ddd
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 4c9e40fa-a5a6-4ecc-bacc-72c95718185b
+        prefix: beloved
+        group: DEFAULT_GROUP
+        file-extension: yaml
+        username: admin
+        password: admin
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 4c9e40fa-a5a6-4ecc-bacc-72c95718185b
+        group: DEFAULT_GROUP
+        username: admin
+        password: admin
+  profiles:
+    active: dev
