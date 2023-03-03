@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
@@ -9,14 +9,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>beloved-ddd</artifactId>
+    <artifactId>beloved-demo</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>beloved-ddd-start</module>
-        <module>beloved-ddd-interfaces</module>
-        <module>beloved-ddd-application</module>
-        <module>beloved-ddd-domain</module>
-        <module>beloved-ddd-infrastructure</module>
+        <module>beloved-demo-start</module>
     </modules>
 
     <properties>

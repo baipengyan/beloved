@@ -32,6 +32,7 @@
 
     <modules>
         <module>beloved-ddd</module>
+        <module>beloved-demo</module>
     </modules>
     <packaging>pom</packaging>
 
